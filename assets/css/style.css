@@ -18,6 +18,7 @@ h1,
 h2 {
     font-family: 'DM Serif Display', serif;
     color: #184f63;
+
 }
 
 .sharp-corners,
@@ -36,8 +37,15 @@ h2 {
     border: #1d6d8a;
 }
 
+.themed-button:active {
+    background-color: #184f63 !important;
+    border: #184f63 !important;
+}
 
 /* Header */
+#hero h1 {
+    font-size: 5.5rem;
+}
 
 #hero {
     background-color: #dbdcde;
